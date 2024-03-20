@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+body {
+  background-color: #000;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+    overflow-x: hidden;
+}
+
+.swiper{
+    padding: 10px!important;
+    overflow:visible!important;
+}
+
+.swiper-pagination-bullets {
+  bottom: initial !important;
+  top: 0px!important;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.swiper-pagination-bullets > span{
+  background-color: white;
+}
+
+.sek:hover, .test:hover{
+    position: absolute;
+    z-index: 2;
+}
+
+.frequently{
+  background-color: #2d2d2d!important;
+  color: white!important;
+  margin-top: 5px!important;
+}
+.frequently-icon{
+  color: white!important;
+}
+
+.browser{
+  color: white!important;
+  width: 10px!important;
+}
+
+.dropdown{
+  background-color: #2d2d2d!important;
+  color: white!important;
+}
